@@ -138,7 +138,7 @@ class Pong
 }
 }
 
-const canvas = document.getElementById('pong');
+const canvas = document.getElementById('pongcanvas');
 const pong = new Pong(canvas);
 
 canvas.addEventListener('mousemove', event => {
